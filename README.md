@@ -2,7 +2,7 @@
 
 Well, is about the approach, we have the classic app where the page are prerender in the server and shipped to client, with all meta tags already defined, and on the other hand we have the single page application (SPA), where we shipped to clients a static page, index.html that not change, or change in the client later, that in fact, seen to be not good for the crawlers bots, because, they do not wait for all the page finish loading.
    
-In response to this problem, we have a lot of the crawlers paid services, that render all the page (that mean, wait for all JavaScript Process and DOM changes), and save as snapshot, that later is shipped in demand to crawlers bots (Googlebot, Facebot, etc). 
+In response to this problem, we have a lot of the crawlers paid services, that render all the page (that mean, wait for all JavaScript Process and DOM changes), and save as a snapshot, that later is shipped in demand to crawlers bots (Googlebot, Facebot, etc). 
 
 Well how to avoid all these crawlers paid services and similar hacks based on PhantomJS, well as I said is about the approach, what if we merge the both approach, of the classic and the SPA, to have a hybrid approach, like seems to be used for Youtube, is like an Ajax app or SPA and the same time is classic app where the page is rendered in the server, when you request some video, you get a processed page, all meta tags has the video related data, but when you change to other video, the meta tags are not updated. 
 
