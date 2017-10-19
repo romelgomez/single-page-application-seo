@@ -6,7 +6,7 @@ In response to this problem, we have a lot of the crawlers paid services, that r
 
 Well how to avoid all these crawlers paid services and similar hacks based on PhantomJS, well as I said is about the approach, what if we merge the both approach, of the classic and the SPA, to have a hybrid approach, like seems to be used for Youtube site, is like an Ajax app or SPA and the same time is classic app where the page is rendered on the server, when you request some video, you get a processed page, all meta tags has the video related data, but when you change to another video, the meta tags are not updated. 
 
-As code example, we see here the current code of http://www.marketoflondon.co.uk/ a full SPA APP made with Angular 1.X Express Firebase:   
+As code example, we see here the current code of https://londres.herokuapp.com/ a full SPA APP made with Angular 1.X Express Firebase:   
 
 As note, I use handlebars for render the view in the server. 
 
